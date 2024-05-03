@@ -132,7 +132,7 @@ def login():
 	try:
 		asu = random.choice([m,k,h,b,u])
 		os.system("cls" if os.name == "nt" else "clear")
-		cookie=input(f'  [{h}•{x}]Koki :{asu} ')
+		cookie=input(f'  [{h}•{x}]cookie :{asu} ')
 		open(".cok.txt", "w").write(cookie)
 		with requests.Session() as rsn:
 			try:
